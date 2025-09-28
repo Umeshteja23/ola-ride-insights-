@@ -6,7 +6,7 @@ import streamlit as st
 # -----------------------------
 @st.cache_data
 def load_data():
-    return pd.read_csv("cleaned_ola_dataset_fixed.csv")
+    return pd.read_csv("cleaned_OLA_DataSet_fixed")
 
 
 # -----------------------------
