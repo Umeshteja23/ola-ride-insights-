@@ -6,10 +6,8 @@ import streamlit as st
 # -----------------------------
 @st.cache_data
 def load_data():
-    return pd.read_csv(
-        "C:/Users/umesh/OneDrive/Desktop/cleaned_ola_Dataset_fixed.csv",
-        low_memory=False
-    )
+    return pd.read_csv("cleaned_ola_dataset_fixed.csv")
+
 
 # -----------------------------
 # App Layout
